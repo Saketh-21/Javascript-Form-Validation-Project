@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="style.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  <title>Form Validation</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <!-- <div class="logo">
+        <img src="images/logo.svg" alt="" />
+      </div> -->
+      <div class="image">
+        <img src="OSKHFO0.jpg" alt="logo">
+        
+      </div>
+      <div class="text">
+        Welcome to my <br />
+        Java Validation Page !
+      </div>
+    </div>
+    <form id="form">
+      <div class="social">
+        <div class="title">Get Started</div>
+        </div>
+
+
+      <!-- /** 
+        * ! user name Input here
+       **/ -->
+
+      <div>
+        <label for="username">User Name</label>
+        <i class="fas fa-user"></i>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter your username"
+        />
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <!-- /** 
+        * ! Email Input here
+       **/ -->
+
+      <div>
+        <label for="email">Email</label>
+        <i class="far fa-envelope"></i>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <!-- /** 
+        * ! PhoneNumber Input here
+       **/ -->
+
+       <div>
+        <label for="PhoneNumber">PhoneNo.</label>
+        <i class="far fa-envelope"></i>
+        <input
+          type="number"
+          name="PhoneNo"
+          id="PhoneNo"
+          placeholder="Enter your PhoneNo."
+        />
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <!-- /** 
+        * ! Password Input here
+       **/ -->
+
+      <div>
+        <label for="password">Password</label>
+        <i class="fas fa-lock"></i>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password here"
+        />
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <div>
+        <label for="confirm password">Password</label>
+        <i class="fas fa-lock"></i>
+        <input
+          type="password"
+          name="password"
+          id="cpassword"
+          placeholder="Confirm Password"
+        />
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
